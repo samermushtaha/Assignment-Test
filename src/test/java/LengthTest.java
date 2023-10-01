@@ -12,7 +12,7 @@ public class LengthTest {
 
     @Test(dataProvider = "lengthTestDataProvider")
     public void lengthTest(String text, int expected){
-        int actual = text.length();
+        int actual = text.length(); //d
         Assert.assertEquals(expected, actual);
     }
 }
