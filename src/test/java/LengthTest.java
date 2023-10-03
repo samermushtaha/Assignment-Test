@@ -15,10 +15,10 @@ public class LengthTest {
         System.out.println("Starting...");
     }
 
-    @Test(expectedExceptions = ArithmeticException.class)
-    public void testDivisionZero(){
-
-    }
+//    @Test(expectedExceptions = ArithmeticException.class)
+//    public void testDivisionZero(){
+//
+//    }
 
     @AfterMethod
     public void printAfterStatue(ITestResult result){

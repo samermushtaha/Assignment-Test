@@ -4,6 +4,13 @@
     <test name="Length Test">
         <classes>
             <class name="LengthTest"/>
+            <class name="FirstTest"/>
+            <class name="SecTest"/>
         </classes>
     </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
 </suite>
+
